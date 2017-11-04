@@ -22,7 +22,11 @@ pod 'ParseArrayHelper'
 
 ## Author
 
-james@calls9.com, james@synap.ac
+[James Gupta](https://github.com/jgupta), [MyLabs](https://github.com/mylabs)
+
+## Uses
+
+Currently used in the [Synap iOS app](https://synap.ac/mobile) amongst others. Feel free to add your own implementation in here. 
 
 ## License
 

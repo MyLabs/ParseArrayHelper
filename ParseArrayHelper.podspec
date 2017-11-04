@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ParseArrayHelper'
   s.version          = '0.1.0'
-  s.summary          = 'Helpful class extensions for NSArray and NSSet to make it easier to work with them in the Parse iOS SDK. Specifically, provides methods for locating items by their Parse objectId.'
+  s.summary          = 'Helpful class extensions for NSArray and NSSet when using the Parse iOS SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +29,7 @@ TODO: This pod contains two useful class extensions for NSArray and NSSet that m
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ParseArrayHelper/Classes/**/*'
+  s.source_files = 'ParseArrayHelper/**/*'
 
   s.dependency 'Parse'
 end
