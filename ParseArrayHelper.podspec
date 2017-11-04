@@ -11,12 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'Helpful class extensions for NSArray and NSSet when using the Parse iOS SDK'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: This pod contains two useful class extensions for NSArray and NSSet that make it easier to work with the Parse iOS SDK. Specifically, it saves time with two convenience methods for locating a Parse Object by it's objectId in an NSSet or NSArray, saving on recursive code.
                        DESC
@@ -29,7 +23,7 @@ TODO: This pod contains two useful class extensions for NSArray and NSSet that m
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ParseArrayHelper/**/*'
+  s.source_files = 'ParseArrayHelper/Classes/**/*'
 
   s.dependency 'Parse'
 end

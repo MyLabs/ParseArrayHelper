@@ -131,6 +131,17 @@
 			path = "Example/Pods/Target Support Files/ParseArrayHelper";
 			sourceTree = "<group>";
 		};
+		78AAD53D1FAE40EE0099DA6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				78AAD5391FAE3B9E0099DA6F /* NSArray+PFObject.h */,
+				78AAD5381FAE3B9E0099DA6F /* NSArray+PFObject.m */,
+				78AAD53A1FAE3B9F0099DA6F /* NSSet+PFObject.h */,
+				78AAD5371FAE3B9E0099DA6F /* NSSet+PFObject.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -145,10 +156,7 @@
 		87D36E5F71CA1742E378F8068946D605 /* ParseArrayHelper */ = {
 			isa = PBXGroup;
 			children = (
-				78AAD5391FAE3B9E0099DA6F /* NSArray+PFObject.h */,
-				78AAD5381FAE3B9E0099DA6F /* NSArray+PFObject.m */,
-				78AAD53A1FAE3B9F0099DA6F /* NSSet+PFObject.h */,
-				78AAD5371FAE3B9E0099DA6F /* NSSet+PFObject.m */,
+				78AAD53D1FAE40EE0099DA6F /* Classes */,
 				6B7FF528842BE20B88C9A3606855001F /* Support Files */,
 			);
 			name = ParseArrayHelper;
