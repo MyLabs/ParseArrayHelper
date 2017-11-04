@@ -1,0 +1,6 @@
+framework module ParseArrayHelper {
+  umbrella header "ParseArrayHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

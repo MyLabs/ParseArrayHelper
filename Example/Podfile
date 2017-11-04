@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ParseArrayHelper_Tests' do
+  pod 'ParseArrayHelper', :path => '../'
+  
+  
+end
