@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ParseArrayHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Helpful class extensions for NSArray and NSSet when using the Parse iOS SDK'
 
   s.description      = <<-DESC
@@ -23,7 +23,7 @@ TODO: This pod contains two useful class extensions for NSArray and NSSet that m
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ParseArrayHelper/Classes/**/*'
+  s.source_files = 'Classes/*'
 
   s.dependency 'Parse'
 end

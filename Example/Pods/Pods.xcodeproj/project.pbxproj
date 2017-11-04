@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D9CBAB0250A8EFBEEFD78591DFF69D8 /* ParseArrayHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE07B258F25A325B783FCA053A1DD7 /* ParseArrayHelper-dummy.m */; };
-		78AAD53B1FAE3B9F0099DA6F /* NSSet+PFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AAD5371FAE3B9E0099DA6F /* NSSet+PFObject.m */; };
-		78AAD53C1FAE3B9F0099DA6F /* NSArray+PFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AAD5381FAE3B9E0099DA6F /* NSArray+PFObject.m */; };
 		83FF7C5FDE99D56075F070135C8E6699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		872BEDCE77ADC077EA1438CD14512708 /* ParseArrayHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A40144A6DCB8219879C02C042DCB6B /* ParseArrayHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E07AD218B6823D394C7FB792E768A8DB /* Pods-ParseArrayHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780FFE0531270F298215A83D769CFD48 /* Pods-ParseArrayHelper_Tests-dummy.m */; };
@@ -36,10 +34,6 @@
 		6C612A4FF49FC02BDB475F8E9FD34A7A /* ParseArrayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseArrayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723CD8129ADC632A88AD1CF911224D86 /* Pods-ParseArrayHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ParseArrayHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		780FFE0531270F298215A83D769CFD48 /* Pods-ParseArrayHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParseArrayHelper_Tests-dummy.m"; sourceTree = "<group>"; };
-		78AAD5371FAE3B9E0099DA6F /* NSSet+PFObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+PFObject.m"; sourceTree = "<group>"; };
-		78AAD5381FAE3B9E0099DA6F /* NSArray+PFObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PFObject.m"; sourceTree = "<group>"; };
-		78AAD5391FAE3B9E0099DA6F /* NSArray+PFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+PFObject.h"; sourceTree = "<group>"; };
-		78AAD53A1FAE3B9F0099DA6F /* NSSet+PFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+PFObject.h"; sourceTree = "<group>"; };
 		81BE07B258F25A325B783FCA053A1DD7 /* ParseArrayHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParseArrayHelper-dummy.m"; sourceTree = "<group>"; };
 		852F36729E1CE65AB6FE413069BBFF13 /* ParseArrayHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ParseArrayHelper.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -134,10 +128,6 @@
 		78AAD53D1FAE40EE0099DA6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				78AAD5391FAE3B9E0099DA6F /* NSArray+PFObject.h */,
-				78AAD5381FAE3B9E0099DA6F /* NSArray+PFObject.m */,
-				78AAD53A1FAE3B9F0099DA6F /* NSSet+PFObject.h */,
-				78AAD5371FAE3B9E0099DA6F /* NSSet+PFObject.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -269,8 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9CBAB0250A8EFBEEFD78591DFF69D8 /* ParseArrayHelper-dummy.m in Sources */,
-				78AAD53C1FAE3B9F0099DA6F /* NSArray+PFObject.m in Sources */,
-				78AAD53B1FAE3B9F0099DA6F /* NSSet+PFObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
