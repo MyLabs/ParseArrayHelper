@@ -1,6 +1,0 @@
-framework module Pods_ParseArrayHelper_Tests {
-  umbrella header "Pods-ParseArrayHelper_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
