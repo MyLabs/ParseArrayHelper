@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Parse/PFObject.h>
+
+@class PFObject
 
 @interface NSArray (PFObject)
 -(BOOL)containsParseObject:(PFObject*)object;

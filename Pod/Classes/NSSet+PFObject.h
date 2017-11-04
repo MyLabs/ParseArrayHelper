@@ -6,6 +6,7 @@
 //
 //
 #import <Foundation/Foundation.h>
+#import <Parse/PFObject.h>
 
 @interface NSSet (PFObject)
 -(BOOL)containsParseObject:(PFObject*)object;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ParseArrayHelper'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Helpful class extensions for NSArray and NSSet when using the Parse iOS SDK'
 
   s.description      = <<-DESC
