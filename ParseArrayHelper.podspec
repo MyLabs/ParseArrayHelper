@@ -17,9 +17,9 @@ TODO: This pod contains two useful class extensions for NSArray and NSSet that m
 
   s.homepage         = 'https://github.com/mylabs/ParseArrayHelper'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'james@calls9.com' => 'james@synap.ac' }
+  s.author           = { 'james.gupta@hotmail.com' => 'james.gupta@hotmail.com' }
   s.source           = { :git => 'https://github.com/mylabs/ParseArrayHelper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/gupta_james'
+  s.social_media_url = 'https://twitter.com/gupta_james'
 
   s.ios.deployment_target = '8.0'
 
